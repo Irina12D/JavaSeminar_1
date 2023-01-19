@@ -43,7 +43,7 @@ public class HomeWork_1 {
         return (1 + n) * n / 2;
     }
 
-    //  функция вывода в консоль результата решения зазачи 1 (сумма)
+    //  функция вывода в консоль результата решения задачи 1 (сумма)
     static void ex_1_1(){
         System.out.print("  Введите натуральное число ");
         Scanner sc = new Scanner(System.in);
@@ -64,7 +64,7 @@ public class HomeWork_1 {
         return f;
     }
 
-    //  функция вывода в консоль результата решения зазачи 1 (факториал)
+    //  функция вывода в консоль результата решения задачи 1 (факториал)
     static void ex_1_2(){
         System.out.print("  Введите натуральное число ");
         Scanner scan = new Scanner(System.in);
@@ -85,7 +85,7 @@ public class HomeWork_1 {
         return true; 
     }
 
-    //  функция вывода в консоль результата решения зазачи 2
+    //  функция вывода в консоль результата решения задачи 2
     static void ex_2(){
         for (int i = 1; i <= 1000; i++) 
             if(isPrime(i))
@@ -117,7 +117,7 @@ public class HomeWork_1 {
         return res;
     }
 
-    //  функция вывода в консоль результата решения зазачи 2
+    //  функция вывода в консоль результата решения задачи 3
     static void ex_3(){
         System.out.println("  " + calc());
     }
